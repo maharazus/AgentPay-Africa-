@@ -1,0 +1,26 @@
+agentpay-africa/
+├── app/
+│   ├── page.tsx
+│   ├── dashboard/
+│   ├── marketplace/
+│   ├── transactions/
+│   └── settings/
+├── components/
+│   ├── DashboardOverview.tsx
+│   ├── ServiceMarketplace.tsx
+│   ├── PaymentApproval.tsx
+│   └── TransactionHistory.tsx
+├── lib/
+│   ├── paybox.ts
+│   ├── x402.ts
+│   └── validation.ts
+├── app/api/
+│   ├── services/
+│   ├── payments/
+│   └── webhooks/
+├── tests/
+├── .env.example
+├── .gitignore
+├── package.json
+├── README.md
+└── LICENSE
